@@ -4,7 +4,7 @@ import requests
 import random
 import os
 
-HF_TOKEN = "hf_xxxxxxxxxxxxx"  # replace with your token
+HF_TOKEN = "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"  # replace with your token
 API_URL = "https://api-inference.huggingface.co/models/ibm-granite/granite-3.2-8b-instruct"
 
 headers = {"Authorization": f"Bearer {HF_TOKEN}"}
