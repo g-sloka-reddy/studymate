@@ -4,7 +4,6 @@ import requests
 import random
 import os
 
-# 🔑 Set your Hugging Face API token (store securely, don’t hardcode in production)
 HF_TOKEN = "hf_xxxxxxxxxxxxx"  # replace with your token
 API_URL = "https://api-inference.huggingface.co/models/ibm-granite/granite-3.2-8b-instruct"
 
