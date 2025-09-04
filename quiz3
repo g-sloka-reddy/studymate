@@ -2,12 +2,10 @@ import streamlit as st
 import PyPDF2
 from transformers import pipeline
 import random
-
-# Load summarizer with IBM Granite
 summarizer = pipeline(
     "summarization", 
     model="ibm-granite/granite-3.2-8b-instruct", 
-    trust_remote_code=True  # Enable if the model requires custom code
+    trust_remote_code=True 
 )
 
 st.title("📚 StudyMate - IBM-Powered AI PDF Summarizer & Quiz Generator")
